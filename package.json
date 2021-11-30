@@ -5,14 +5,18 @@
     "source": "src/index.html",
     "scripts": {
         "start": "parcel",
+        "lint": "eslint src/*.js",
         "build": "parcel build ./src/index.html --public-url ./",
         "test": "echo 'TODO: add some quality gate'"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "eslint": "^8.3.0",
+        "eslint-config-google": "^0.14.0",
         "mocha": "^9.1.3",
-        "parcel": "^2.0.1"
+        "parcel": "^2.0.1",
+        "prettier": "2.5.0"
     },
     "dependencies": {
         "kaboom": "^2000.1.6"
