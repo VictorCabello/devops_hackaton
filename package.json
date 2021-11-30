@@ -1,0 +1,19 @@
+{
+    "name": "devops_hackaton",
+    "version": "1.0.0",
+    "description": "This is a sample of how to use devops",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.0.1"
+    },
+    "dependencies": {
+        "kaboom": "^2000.1.6"
+    }
+}
