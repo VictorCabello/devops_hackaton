@@ -1,18 +1,4 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Game Kaboom.js</title>
-    <style>
-      body {
-        margin: 0;
-        overflow: hidden;
-      }
-    </style>
-  </head>
-  <body>
-    <script type="module">
-
-import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
+import kaboom from "kaboom";
 
 // Start game
 kaboom()
@@ -180,6 +166,3 @@ function start() {
 }
 
 start()
-    </script>
-  </body>
-</html
