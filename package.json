@@ -5,11 +5,14 @@
     "source": "src/index.html",
     "scripts": {
         "start": "parcel",
-        "build": "parcel build"
+        "build": "parcel build ./src/index.html --public-url ./",
+        "lint": "eslint src/*.js"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "eslint": "^8.3.0",
+        "eslint-config-google": "^0.14.0",
         "parcel": "^2.0.1"
     },
     "dependencies": {
