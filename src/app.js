@@ -132,7 +132,7 @@ scene('game', ({levelIdx, score}) => {
 
 scene('lose', () => {
   add([
-    text('You Lose'),
+    text('Perdiste'),
     pos(12),
   ]);
 
