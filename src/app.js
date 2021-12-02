@@ -29,13 +29,7 @@ const LEVELS = [
     '@   $   >',
     '=   =   =',
   ],
-  
-  
-  
-  
 ];
-
-adasdasdfasdfasd
 
 scene('game', ({levelIdx, score}) => {
   gravity(2400);
@@ -138,7 +132,7 @@ scene('game', ({levelIdx, score}) => {
 
 scene('lose', () => {
   add([
-    text('You Lose'),
+    text('Perdiste'),
     pos(12),
   ]);
 
