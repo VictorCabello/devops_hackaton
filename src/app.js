@@ -18,6 +18,7 @@ const SPEED = 480;
 // Design 2 levels
 const LEVELS = [
   [
+    '     $          ',
     '@   $ $  ^     >',
     '=   ========   =',
   ],
